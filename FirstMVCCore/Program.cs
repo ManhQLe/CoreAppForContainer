@@ -24,6 +24,7 @@ namespace FirstMVCCore
 				.UseKestrel()
 				.UseContentRoot(Directory.GetCurrentDirectory())
 				.UseConfiguration(conf)
+				.UseStati
 				.UseIISIntegration()
 				.UseStartup<Startup>();
 		}
